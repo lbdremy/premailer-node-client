@@ -15,9 +15,9 @@ var client = premailer.createClient();
 client.getAll(options,function(err,documents){
 	// HTML document
 	console.log(documents.html);
-	// Plain text documents
+	// Plain text document
 	console.log(documents.txt);
-	// Metadata of the request
+	// JSON response deserialized
 	console.log(documents.response);
 })
 ```
