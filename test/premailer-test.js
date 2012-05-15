@@ -4,8 +4,7 @@
 
 var premailer = require('./../'),
    vows = require('vows'),
-   assert = require('assert'),
-   request = require('superagent');
+   assert = require('assert');
 
 // Test Suite Premailer
 var suite = vows.describe('Premailer API client library');

@@ -12,12 +12,10 @@
     "node": ">= 0.4.x"
   },
   "dependencies": {
-   	"superagent" : "0.4.x",
    	"async" : "0.1.x"
    },
   "devDependencies": {
-    "vows": "0.5.x",
-    "nock" : "0.13.x"
+    "vows": "0.5.x"
   },
   "scripts" : {
     "test" : "vows --spec ./test/*-test.js"
