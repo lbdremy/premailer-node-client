@@ -7,7 +7,6 @@
     "type": "git",
     "url": "https://github.com/lbdremy/premailer-node-client.git"
   },
-  "private" : "true",
   "engines": {
     "node": ">= 0.4.x"
   },
