@@ -16,7 +16,7 @@ client.getAll(options,function(err,documents){
 	// HTML document
 	console.log(documents.html);
 	// Plain text document
-	console.log(documents.txt);
+	console.log(documents.text);
 	// JSON response deserialized
 	console.log(documents.response);
 })
