@@ -1,0 +1,30 @@
+{
+  "name": "premailer-client",
+  "main": "./index",
+  "description": "Premailer API client for node.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lbdremy/premailer-node-client.git"
+  },
+  "private" : "true",
+  "engines": {
+    "node": ">= 0.4.x"
+  },
+  "dependencies": {
+   	"superagent" : "0.4.x",
+   	"async" : "0.1.x"
+   },
+  "devDependencies": {
+    "vows": "0.5.x",
+    "nock" : "0.13.x"
+  },
+  "scripts" : {
+    "test" : "vows --spec ./test/*-test.js"
+  },
+  "author": {
+   "name"  : "Remy Loubradou" ,
+   "email" : "remy.loubradou@gmail.com" ,
+   "url" : "https://twitter.com/#!/lbdremy"
+  }
+}
