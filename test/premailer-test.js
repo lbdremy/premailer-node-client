@@ -59,6 +59,7 @@ suite.addBatch({
          	assert.isNull(err);
          	assert.isString(documents.html);
          	assert.isString(documents.text);
+            assert.isObject(documents.response);
          }
       },
       'but only links to the HTML and Text format' : {
